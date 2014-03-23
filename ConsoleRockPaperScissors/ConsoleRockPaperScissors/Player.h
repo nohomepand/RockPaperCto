@@ -2,13 +2,15 @@
 /*
 INCLUDE
 */
-#include "Base.h"
+#include "Participant.h"
 
 
-class Player:public Base
+class Player :public Participant
 {
 	public:
 		Player();
 		~Player();
+
+		void setHand();		//Žè‚ðŒˆ‚ß‚é
 };
 

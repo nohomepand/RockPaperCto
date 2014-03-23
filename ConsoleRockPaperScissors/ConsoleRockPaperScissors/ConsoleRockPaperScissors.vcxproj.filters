@@ -6,9 +6,10 @@
     <ClInclude Include="Model.h" />
     <ClInclude Include="ConsoleRockPaperScissors.h" />
     <ClInclude Include="Control.h" />
-    <ClInclude Include="Base.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Npc.h" />
+    <ClInclude Include="Participant.h" />
+    <ClInclude Include="Random.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -16,12 +17,15 @@
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="ConsoleRockPaperScissors.cpp" />
     <ClCompile Include="Control.cpp" />
-    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="Participant.cpp" />
+    <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="HISTORY.md" />
     <None Include="README.md" />
+    <None Include="word.md" />
+    <None Include="GoodComment.txt" />
   </ItemGroup>
 </Project>

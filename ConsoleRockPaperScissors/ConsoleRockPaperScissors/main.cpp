@@ -24,6 +24,8 @@
 
 int main(){
 
+	srand((unsigned int)time(NULL));//rand()ŠÖ”‚Ìã©‰ñ”ğ
+
 	ConsoleRockPaperScissors crs;
 
 	crs.mainLoop();

@@ -11,28 +11,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Base.h" />
+    <ClInclude Include="Participant.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="ConsoleRockPaperScissors.h" />
     <ClInclude Include="Control.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="Npc.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="View.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="Participant.cpp" />
     <ClCompile Include="ConsoleRockPaperScissors.cpp" />
     <ClCompile Include="Control.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="Npc.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GoodComment.txt" />
     <None Include="HISTORY.md" />
     <None Include="README.md" />
+    <None Include="word.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1FCA88B4-5C10-4AF1-95BE-2D807AB7FAF2}</ProjectGuid>

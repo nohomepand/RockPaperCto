@@ -1,6 +1,12 @@
 #pragma once
-class Control
-{
+
+/*
+INCLUDE
+*/
+#include "Common.h"
+
+class Control{
+private:
 public:
 	Control();
 	~Control();

@@ -9,9 +9,9 @@ INLCUDE
 class ConsoleRockPaperScissors
 {
 private:
-	Model model;
-	View view;
-	Control contorl;
+	Model* model;
+	View* view;
+	Control* contorl;
 public:
 	ConsoleRockPaperScissors();
 	~ConsoleRockPaperScissors();

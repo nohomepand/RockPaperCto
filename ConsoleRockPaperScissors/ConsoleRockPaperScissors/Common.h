@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <time.h>
-
+#include <stdio.h>
+#include <string>
 
 #endif __COMMON__

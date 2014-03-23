@@ -1,14 +1,17 @@
 #include "ConsoleRockPaperScissors.h"
 
 
-ConsoleRockPaperScissors::ConsoleRockPaperScissors()
-{
+ConsoleRockPaperScissors::ConsoleRockPaperScissors(){
+	model = new Model;
+	view = new View(model);
+	contorl = new Control;
 }
 
 
-ConsoleRockPaperScissors::~ConsoleRockPaperScissors()
-{
+ConsoleRockPaperScissors::~ConsoleRockPaperScissors(){
+	
 }
 void ConsoleRockPaperScissors::mainLoop(){
-	
+
+	view->draw(1);
 }
