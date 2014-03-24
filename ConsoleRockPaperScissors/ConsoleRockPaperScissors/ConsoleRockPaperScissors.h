@@ -11,10 +11,14 @@ class ConsoleRockPaperScissors
 private:
 	Model* model;
 	View* view;
-	Control* contorl;
+	Control* control;
+	//Model model;
+	//View view;
+	//Control control;
 public:
 	ConsoleRockPaperScissors();
 	~ConsoleRockPaperScissors();
+
 	void mainLoop();
 };
 

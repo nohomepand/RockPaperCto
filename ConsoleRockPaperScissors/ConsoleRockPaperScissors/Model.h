@@ -13,14 +13,17 @@ private:
 		char* pName;//誰が勝ったか
 	}JUDGEDATA;
 
+	JUDGEDATA* judgeData;	//値を書き換えやすいようにする。クラス風に扱える練習兼
+
 	Player* player;
 	Npc* npc;
 public:
 	Model();
 	~Model();
-	void setHand();		//playerとnpcのsetHandを同時に扱う
-	void judge(JUDGEDATA*);
+	void setHand();		//playerとnpcのsetHandを同時に扱う 多態勢っぽく
+	void judge();		//結果判定
 	char getPlayerHand(){ return player->getHand(); }
 	char getnpcHand(){ return npc->getHand(); }
+	int getState();
 };
 

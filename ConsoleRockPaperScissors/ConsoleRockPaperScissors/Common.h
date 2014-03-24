@@ -8,4 +8,11 @@
 #include <stdio.h>
 #include <string>
 
+enum {
+	enumHcINIT,
+	enumHcGAME,
+	enumHcAIKO,
+	enumHcWIN,
+	enumHcLOSE,
+};
 #endif __COMMON__

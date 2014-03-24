@@ -8,16 +8,16 @@ INCLUDE
 class View //•`‰æŠÖŒW
 {
 	private:
-		Model*	model;
-		char*	drawStringData[10];
+		Model* model;
+		char* drawStringData[10];
 	public:
-				View();
-				View(Model* ArgumentModel);
-				~View();
+		View();
+		View(Model*);
+		~View();
 
 		
-		void	draw(int state);				//•`‰æ
-		void	makeStringComment(int state);	//•`‰æ‚·‚éƒRƒƒ“ƒg‚ğì¬
+		void draw(int);					//•`‰æ
+		void makeStringComment(int);	//•`‰æ‚·‚éƒRƒƒ“ƒg‚ğì¬
 
 		
 		

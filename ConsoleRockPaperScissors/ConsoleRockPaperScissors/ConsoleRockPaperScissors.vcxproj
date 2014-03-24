@@ -38,6 +38,9 @@
     <None Include="README.md" />
     <None Include="word.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Summary_Reflection.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1FCA88B4-5C10-4AF1-95BE-2D807AB7FAF2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

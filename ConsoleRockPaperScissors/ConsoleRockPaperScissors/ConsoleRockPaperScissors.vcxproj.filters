@@ -28,4 +28,7 @@
     <None Include="word.md" />
     <None Include="GoodComment.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Summary_Reflection.txt" />
+  </ItemGroup>
 </Project>

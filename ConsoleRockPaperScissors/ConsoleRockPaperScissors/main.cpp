@@ -19,6 +19,7 @@
 * 2.作者または著作権者は、ソフトウェアに関してなんら責任を負わない。
 *
 */
+
 #include "Common.h"
 #include "ConsoleRockPaperScissors.h"
 

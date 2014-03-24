@@ -9,8 +9,12 @@ Player::Player(){
 Player::~Player(){
 
 }
-/*
-	setHand()：	キー入力で手を得る
+/*  makeCト 2014/3/24
+playerのHandの設定
+
+引数:  無し
+戻り値: 
+備考:
 */
 void Player::setHand(){
 	using namespace std;
